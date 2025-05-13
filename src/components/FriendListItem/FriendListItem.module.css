@@ -1,0 +1,22 @@
+.online {
+  color: green;
+  font-weight: 600;
+}
+
+.offline {
+  color: red;
+  font-weight: 600;
+}
+
+.friendItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 5px;
+}
+
+.friendItem p:first-of-type {
+  font-weight: 700;
+  font-size: x-large;
+}

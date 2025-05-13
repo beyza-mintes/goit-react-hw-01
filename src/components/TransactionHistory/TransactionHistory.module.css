@@ -1,0 +1,35 @@
+.table {
+  margin-top: 50px;
+  width: 480px;
+  height: 600px;
+  text-transform: capitalize;
+  border: 1px solid rgb(192, 223, 234);
+  border-radius: 4px;
+}
+
+.table thead {
+  height: 40px;
+  background-color: rgb(9, 9, 65);
+  color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+.table tbody {
+  font-size: large;
+  color: rgb(9, 9, 65);
+  font-weight: 400;
+}
+
+.table thead th,
+.table tbody td {
+  text-align: center;
+}
+
+/* Satır renkleri (zebra striping) */
+.table tbody tr:nth-child(odd) {
+  background-color: rgb(217, 243, 246); /* Tek sayılı satırlar beyaz */
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: rgb(192, 223, 234); /* Çift sayılı satırlar açık mavi */
+}

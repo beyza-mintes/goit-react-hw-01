@@ -1,0 +1,6 @@
+.App {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
